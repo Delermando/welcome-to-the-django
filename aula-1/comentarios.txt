@@ -54,3 +54,18 @@ Então o Guido fez o mesmo que o Linux Torvalds quando conseguiu um prototipo da
 O nome python vem do grupo de comédia britanica Monty Python, 
 
 Hoje o Guido trabalha no dropbox, mas trabalhou por muitos anos como engenheiro chefe do google app engine
+
+
+
+O design pattern "interator" ja faz parte da linguagem, em liguagem estaticas como java temos uma gama de cerca de 20 design patterns, este numero cai para 4 a 6 metodologias em liguagens dinamicas como o python
+
+
+tupla sao objetos imutaveis
+
+lista sao objetos que podem ser ordenados 
+
+dicionarios sao como tuplas nao tem ordem
+
+
+seguencias, strings, são objetos ciculares
+
