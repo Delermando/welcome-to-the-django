@@ -1,1 +1,28 @@
 #iniciando primeira aula
+
+Python 
+
+Capacidade de expressão
+É a capacidade de voce enquanto ser humano conseguir imaginar algo e conseguir explicitar isso de modo que o computador entenda, o python tem esta caracteristica marcante
+
+"O Python cabe na sua cabeça"
+
+O Python é otimo para programadores iniciantes que estão começando a programar, pois sua sintaxe é fácil e vocÊ trabalhar com ela de forma estruturada dando seus primeiros passos interagindo com a máquina
+
+Mas se você ja é mais experiente em programação com outras linguagens e por exemplo usa o paradigma de programação Orientada a Objetos o Python também se molda a sua necessidade trabalhando como uma linguagem orientada a objetos ou mesmo funcional, o Python é uma linguagem multi-paradigma 
+
+Guido van Rossum, Holandês criador da linguagem, a linguagem nasceu em 1991
+
+Ele trabalhada em um instituto onde ele foi incubido de criar uma nova linguagem de programação
+para um SO que estava sendo produzido com muito foco em multi-midia, esta empresa ja tinha uma linguagem famosa a ABC uma linguagem de alto nivel que abstraia todas as impurezas da maquina. 
+
+Pode-se dizer que o ABC é a mãe do Python
+
+O Python herdou muitas coisas de alto nivel do ABC, mas por ser uma linguagem que era para escrever programas para o sistema operacional ela precisava manipular funcoes de baixo nivel "escovar bits", o que hoje permite a integração do python com inumeras outras linguagens/tecnologias este foi o pulo do gato para fazer o python acontecer
+
+
+Então o Guido fez o mesmo que o Linux Torvalds quando conseguiu um prototipo da linguagem colocou em um email e jogou na rede de mensagens na USENET, para que as pessoas pudessem comentar e modificar o codigo
+
+O nome python vem do grupo de comédia britanica Monty Python, 
+
+Hoje o Guido trabalha no dropbox, mas trabalhou por muitos anos como engenheiro chefe do google app engine
