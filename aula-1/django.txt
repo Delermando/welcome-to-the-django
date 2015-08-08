@@ -1,0 +1,26 @@
+é um framework web de alto nivel escrito em python de alto nive e design pragmatico
+
+o django tenta abstrair toda parte chata e burocratida envolvida no http
+
+existem outros frameworks em python que tenta fugir do pytonico como o zoope que era quase um java escrito em python
+
+rapido desenvolvimento 
+não é correria e nem que vc consegur fazer mais coisas, na verdade é que o circulo de feedback é muito curto em django qualquer alteração é visualizada muito rapido a alteração
+
+dsign pragrimatico é tentar não fazer um framework que sirva para tudo na vida e no universo
+que resolva todos os seus problemas, é para ele resolver 80% das coisas e os 20% restantes fica 
+para o programador resolver, o django permite intercalar estratégias, estruturas, bibliotecas e frameworks
+
+statefull uma conexão detem o contexto então caso a conexao caia o contexto é perdido, se ver muito isso em aplicacoes que quando a conexão cai o seu estado no programa é resetado tendo que se logar de novo e reiniciar 
+as operacoes, outro adentro é que uma vez a conexão estabelecida ela fica ativa até ser fechada e estando ativa ela fica ocupada consumindo recursos
+
+
+com o tempo a tecnologia foi evoluindo as tecnologias de comunicaçoes tentaram otimizar o uso deste recurso 
+stateless a conexão não detem o contexto, o contexto esta sempre no cliente e o cliente sempre remete o contexto inteiro para o servidor a web funciona desta maneira apesar de usar tcp que é statefull
+
+
+
+Django 
+começo com o Adrian e Simon, que trabalhavam em um jornal no Cansas, o simon era estagiário do Adrian 90% do codigo do site do jornal era escrito em PHP e tinha um site especial que tinha que ser criado muito rapido, mas a ferramenta em PHP que haviam criado nao permitia o desenvolvimento rapido, o Adrian ja estava programando em python dai esperimentaram criar este site em python, fico pronto rapido, fizera outros dai foram criando umas ferramentas para poder desenvolver o que depois foi o django, as primeiras classes que foram escritas no framework httpResquest, httpResponde, e o processamento, e com o tempo eles foram reconhendo padrões e criando ferramentas
+
+
