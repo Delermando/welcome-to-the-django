@@ -2,10 +2,12 @@
 #from django.http import HttpResponse
 #from django.template import loader, Context
 
-from django.shortcuts import render_to_response
+#from django.shortcuts import render_to_response
 #from django.conf import settings
 
-from django.template import RequestContext
+#from django.template import RequestContext
+
+from django.shortcuts import render
 
 def homepage( request ):
 	#t = loader.get_template( 'index.html' )
@@ -15,6 +17,8 @@ def homepage( request ):
 
 	#context = {'STATIC_URL':settings.STATIC_URL}
 
-	context = RequestContext( request )
-	return render_to_response('index.html', context)
+	#context = RequestContext( request )
+
+	return render(request, 'index.html')
+
 
