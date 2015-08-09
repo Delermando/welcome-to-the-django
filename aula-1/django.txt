@@ -44,3 +44,13 @@ o objetivo de uma view é gerar um http response
 
 
 unipath - abstracao para diretorios que trata os diretorios como objetos
+
+
+criar app do django
+uma app do django nada mais é que uma biblioteca python que respeita as convencoes django
+ela deve ser um package python que contem um modulo interno que contem um models.py mesmo que esteja vazio
+a primeira app do django um bom nome é chamada de "core"
+
+uma app sempre tem um proposito especifico 
+
+"eric florenzado pycon 2010"
