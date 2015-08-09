@@ -1,5 +1,5 @@
 django==1.5.12
-django-base-url==0.2.2
+https://pypi.python.org/packages/source/d/dj-database-url/dj-database-url-0.2.1.tar.gz
 Unipath==1.0
 gunicorn==0.17.2
 psycopg2
