@@ -1,0 +1,15 @@
+#instalation
+
+python 2.7
+pip 7.1
+virtualenv 13.1
+
+django 1.5.12
+	pip install django==1.5.12
+heroku 
+	wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+ruby
+	apt-get install ruby
+
+dj-database-url-0.2.2
+	pip install https://pypi.python.org/packages/source/d/dj-database-url/dj-database-url-0.2.2.tar.gz
