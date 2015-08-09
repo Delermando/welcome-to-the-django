@@ -1,3 +1,5 @@
+"""Bernado fontes - teste com django"""
+
 é um framework web de alto nivel escrito em python de alto nive e design pragmatico
 
 o django tenta abstrair toda parte chata e burocratida envolvida no http
@@ -24,3 +26,18 @@ Django
 começo com o Adrian e Simon, que trabalhavam em um jornal no Cansas, o simon era estagiário do Adrian 90% do codigo do site do jornal era escrito em PHP e tinha um site especial que tinha que ser criado muito rapido, mas a ferramenta em PHP que haviam criado nao permitia o desenvolvimento rapido, o Adrian ja estava programando em python dai esperimentaram criar este site em python, fico pronto rapido, fizera outros dai foram criando umas ferramentas para poder desenvolver o que depois foi o django, as primeiras classes que foram escritas no framework httpResquest, httpResponde, e o processamento, e com o tempo eles foram reconhendo padrões e criando ferramentas
 
 
+Jacob formado em letras, e programa por hobby e ele é o grande responsavel pela documentaçao do Django
+
+A grande maioria dos frameworks web utiliza o padrão MVC, só que o este padrão surgiu com aplicações desktop
+dai tentaram porta-lo para a web 
+o Django tenta usar o 
+MPV
+
+Model
+Template 
+View
+
+a view faz o papel do controller
+o objetivo de uma view é gerar um http response
+
+"""view boa é view pequena"""
