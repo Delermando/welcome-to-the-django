@@ -1,0 +1,82 @@
+uma view é uma função
+um callable python
+é um objeto executavel
+que recebe como primeiro argumento a instancia de request
+e retorna uma instacia de response
+qualquer coisa diferente disso não é uma view
+
+
+
+assets sao os arquivos estaticos
+como logo css, imagens
+
+o django saba onde encontrar as temples com base no templates loader
+o django ja vem com dois depe por padrão
+o filesytem loader
+appdirectiories loader
+
+primeiro ele pede para o filesystemfinder se não encontrar
+ele pede para o appdirectoriesfinder
+
+
+o filesystem loader vai pesquisar na pastas configuradas no templates_dir
+
+
+o django em suas templates não gera quando uma variavel não existe
+e apenas coloca um dado em branco
+no django ao tentar acessar uma variavel ele tenta acessar 
+esta variavel na seguinte ordem 
+ex: {{subscription.name}}
+["name"]
+name
+name()
+
+
+o codigo do template não é python é uma sintaxe baseada em python mas não é
+é para não ter codigo django no template
+
+template filter
+manipula os dados
+e voce pode facilmente criar templates filters
+{{ subscription.created_at|date:"d/m/Y" }} // ja respeitando a localização
+{{ text|escape|linebreaks }}
+{{ text|truncatewords:"30" }}
+
+e há tambem templates tags
+{% if subscription.phone %}
+	telefone	
+	{{ subscription.phone }}.
+{% else	%}
+	e-­‐mail	
+	{{ subscription.email }}.
+{% endif %}
+
+
+Media vs Static 
+Static são os arquivos estaticos do seu site exemplos imagens
+Media são os arquivos fornecidos pelo usuario
+
+o heroku usa um principio chamado
+"Twelve Factories" e nesse processo uma biblioteca que eles criaram para auxiliar este 
+principio foi o dj-database-url
+
+
+django the couple
+que permiti integrar os settings com um arquivo de configuração
+
+pesquisar no blog sobre isso "para desacoplar configurações de ambiente dos settings"
+
+agora vamos instalar um servidor wsgi por que o runserver do django não é feito para produção e sim para
+desenvolvimento local ele só aceita uma requisição por vez,
+ja o gunicorn é ja é mais robusto é assincrono
+
+
+Procfile é o arquivo que vai dizer para o Heroku como rodar o servidor
+
+
+ao criar uma app no heroku crie com um nome que seja unico no heroku inteiro pois este vai ser usado para configurar dns
+tente "project_name_you_name"
+
+
+metaclasses é uma classe que dinamicamente cria uma classe
+meta programação é um programa que cria um programa em tempo de execução
